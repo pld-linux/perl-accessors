@@ -8,7 +8,8 @@ Summary(pl):	accessors - tworzenie metod dostêpu w pakiecie wywo³uj±cego
 Name:		perl-accessors
 Version:	0.02
 Release:	1
-License:	Unknown
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/SPURKIS/accessors-%{version}.tar.gz
 # Source0-md5:	01c4bf67f8d3f839b0a512dc990be5a8
@@ -43,6 +44,7 @@ perl Build.PL \
 	installdirs=vendor \
 	destdir=$RPM_BUILD_ROOT
 ./Build
+
 %{?with_tests:./Build test}
 
 %install
