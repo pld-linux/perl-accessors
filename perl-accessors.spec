@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	accessors - create accessor methods in caller's package
-Summary(pl):	accessors - tworzenie metod dostêpu w pakiecie wywo³uj±cego
+Summary(pl.UTF-8):   accessors - tworzenie metod dostÄ™pu w pakiecie wywoÅ‚ujÄ…cego
 Name:		perl-accessors
 Version:	0.02
 Release:	1
@@ -28,13 +28,13 @@ reduce the ammount of unwanted direct-variable access that may creep
 into your codebase when you're feeling lazy. accessors was designed
 with laziness in mind.
 
-%description -l pl
-Ten modu³ pozwala na tworzenie prostych metod dostêpowych w czasie
-kompilacji. Oszczêdza przed pisaniem ich rêcznie, co powodowa³oby
-b³êdy przy kopiowaniu i wklejaniu oraz ba³agan w postaci powielonego
-kodu. Mo¿e tak¿e zmniejszyæ ilo¶æ niechcianych bezpo¶rednich dostêpów
-do zmiennych mog±cych siê wkra¶æ do kodu, kiedy programista jest
-leniwy. accessors jest stworzony z my¶l± o lenistwie.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala na tworzenie prostych metod dostÄ™powych w czasie
+kompilacji. OszczÄ™dza przed pisaniem ich rÄ™cznie, co powodowaÅ‚oby
+bÅ‚Ä™dy przy kopiowaniu i wklejaniu oraz baÅ‚agan w postaci powielonego
+kodu. MoÅ¼e takÅ¼e zmniejszyÄ‡ iloÅ›Ä‡ niechcianych bezpoÅ›rednich dostÄ™pÃ³w
+do zmiennych mogÄ…cych siÄ™ wkraÅ›Ä‡ do kodu, kiedy programista jest
+leniwy. accessors jest stworzony z myÅ›lÄ… o lenistwie.
 
 %prep
 %setup -q -n accessors-%{version}
