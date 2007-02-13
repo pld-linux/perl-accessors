@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	accessors - create accessor methods in caller's package
-Summary(pl.UTF-8):   accessors - tworzenie metod dostępu w pakiecie wywołującego
+Summary(pl.UTF-8):	accessors - tworzenie metod dostępu w pakiecie wywołującego
 Name:		perl-accessors
 Version:	0.02
 Release:	1
