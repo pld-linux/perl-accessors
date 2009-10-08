@@ -6,13 +6,13 @@
 Summary:	accessors - create accessor methods in caller's package
 Summary(pl.UTF-8):	accessors - tworzenie metod dostępu w pakiecie wywołującego
 Name:		perl-accessors
-Version:	0.02
-Release:	2
+Version:	1.01
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/SPURKIS/accessors-%{version}.tar.gz
-# Source0-md5:	01c4bf67f8d3f839b0a512dc990be5a8
+# Source0-md5:	fc764c9cbfd03762c0d4f8ffaabaecb0
 BuildRequires:	perl-Module-Build >= 0.20
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
