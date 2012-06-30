@@ -13,7 +13,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/SPURKIS/accessors-%{version}.tar.gz
 # Source0-md5:	fc764c9cbfd03762c0d4f8ffaabaecb0
+URL:		http://search.cpan.org/dist/accessors/
 BuildRequires:	perl-Module-Build >= 0.20
+%{?with_tests:BuildRequires:	perl-Test-Simple >= 0.01}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -57,6 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
-%{perl_vendorlib}/*
-%{_mandir}/man3/*
+%doc Changes README TODO
+%{perl_vendorlib}/accessors.pm
+%{perl_vendorlib}/accessors
+%{_mandir}/man3/accessors*.3pm*
