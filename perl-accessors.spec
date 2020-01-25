@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	accessors - create accessor methods in caller's package
 Summary(pl.UTF-8):	accessors - tworzenie metod dostępu w pakiecie wywołującego
 Name:		perl-accessors
